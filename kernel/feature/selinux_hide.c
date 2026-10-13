@@ -24,7 +24,7 @@
 #define __nocfi
 #endif
 
-#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 17, 0) && \
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 14, 0) && \
     LINUX_VERSION_CODE <  KERNEL_VERSION(6, 6, 0)
 extern struct selinux_state selinux_state;
 #define KSU_HAS_SELINUX_STATE 1
